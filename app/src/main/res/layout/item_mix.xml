@@ -11,8 +11,6 @@
         android:layout_height="wrap_content"
         >
 
-
-
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/item_img_mix"
             android:layout_width="@dimen/_100sdp"

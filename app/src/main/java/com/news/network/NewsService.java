@@ -1,7 +1,6 @@
 package com.news.network;
 
 import com.news.model.ArticlesModel;
-import com.news.model.NewsModel;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,5 +13,5 @@ public interface NewsService
 {
 
     @GET("top-headlines")
-    Call<ArrayList<ArticlesModel>> getNews(@QueryMap HashMap<String, String> stringHashMap);
+    Call<ArrayList<ArticlesModel>> getNews(@QueryMap HashMap<String, String> map);
 }
